@@ -1,3 +1,5 @@
+<img src="https://raw.githubusercontent.com/thoughtbot/Argo/gh-pages/Argo.png" width="200" />
+
 Argo
 ====
 
