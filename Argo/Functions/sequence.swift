@@ -2,7 +2,7 @@ import Runes
 
 public func sequence<T>(xs: [Decoded<T>]) -> Decoded<[T]> {
   return xs.reduce(pure([])) { accum, elem in
-    curry(+) <^> accum <*> (pure <^> elem)
+    curry(+) <^> accum <*> ({ [$0] } <^> elem)
   }
 }
 
